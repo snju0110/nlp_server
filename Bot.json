@@ -1,0 +1,16 @@
+{ "intents": [
+
+  {
+    "tag" : "bot_test" ,
+    "patterns" : ["What were your specification" , "show me you attributes" , "what are your specs" , "tell me your specs"] ,
+    "responses" : ["i am using {model} as model and {}"]
+  },
+    {
+    "tag" : "current time" ,
+    "patterns" : ["What is time" , "what is current time" , "tell me time" ] ,
+    "responses" : ["The time is {current_time}"]
+  }
+
+]}
+
+
