@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('request/' , j.request_query) ,
     path('initialse/' , j.initialse) ,
-
+    path('' , j.home) ,
 ]

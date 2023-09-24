@@ -28,3 +28,7 @@ def request_query(request):
     }
 
     return JsonResponse(resp, safe=False)
+
+
+def home(request):
+    return JsonResponse({"Jarvis":"Sir i am live now !"}, safe=False)
